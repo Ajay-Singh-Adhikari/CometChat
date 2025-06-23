@@ -1,0 +1,77 @@
+.page3Wrapper {
+  background: #fff;
+  padding: 60px 40px;
+  color: #000;
+}
+
+.programSection {
+  margin-bottom: 10px;
+}
+
+.cardBox {
+  padding: 20px;
+  background: #fafafa;
+  border-radius: 10px;
+  text-align: left;
+  min-height: 260px;
+}
+
+.cardIcon {
+  font-size: 20px;
+  color: #6d28d9;
+  margin-bottom: 10px;
+}
+
+.cardDesc {
+  font-size: 0.9rem;
+  color: #444;
+}
+
+.faqSection {
+  padding: 20px 20px;
+  border-radius: 20px;
+}
+
+.accordion {
+  max-width: 500px;
+  margin: 30px auto 0 auto;
+}
+
+.accordionItem {
+  background-color: #e6e7e8;
+  margin-bottom: 10px;
+  padding: 16px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+  font-size: 0.9rem;
+  color: #111;
+}
+
+.accordionItem:hover {
+  background: #ffffffee;
+}
+
+.question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+}
+
+.answer {
+  margin-top: 10px;
+  color: #555;
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+.arrow {
+  font-size: 1rem;
+  transition: transform 0.3s;
+  margin-left: 8px;
+}
+
+.active .arrow {
+  transform: rotate(0deg);
+}

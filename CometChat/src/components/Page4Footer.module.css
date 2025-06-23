@@ -1,0 +1,135 @@
+.footer {
+  background-color: #0d0b1f;
+  color: #cfcfe4;
+  font-family: 'Inter', sans-serif;
+  padding: 3rem 2rem 2rem;
+}
+
+.footerLogo {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 2rem;
+  text-transform: lowercase;
+}
+
+.footerColumns {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.footerColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.footerColumn h4 {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #7c3aed;
+  margin-bottom: -1rem;
+}
+
+.footerColumn ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footerColumn li {
+  font-size: 0.85rem;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.footerColumn li:hover {
+  text-decoration: underline;
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.subSection h4 {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #7c3aed;
+  margin-bottom: 0.8rem;
+}
+
+.subSection ul {
+  padding: 0;
+  margin: 0;
+}
+
+.subSection li {
+  font-size: 0.85rem;
+  margin-bottom: 0.4rem;
+  color: #cfcfe4;
+  cursor: pointer;
+}
+
+.subheadingItem {
+  color: #f7f5f55e;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  cursor: default;
+}
+
+.footerBottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  color: #a1a1b5;
+}
+
+.footerLegal span {
+  margin-right: 1.2rem;
+}
+
+.footerLegal a {
+  color: #a1a1b5;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+.footerLegal a:hover {
+  text-decoration: underline;
+}
+
+.footerSocial a {
+  color: #a1a1b5;
+  margin-left: 1rem;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.footerSocial a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .footerColumns {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footerBottom {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .footerSocial {
+    text-align: left;
+    flex-wrap: wrap;
+  }
+}
